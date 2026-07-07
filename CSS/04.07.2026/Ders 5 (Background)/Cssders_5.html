@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            border-style: solid;
+            border-width: thin;
+            background-color: lightblue;
+            border-color: black;
+        }
+
+        h1 {
+            background-image: url("images.jpg"); /* Arka plan resmi */
+            background-repeat: no-repeat;    /* Arka plan resminin tekrarlanmaması */
+            background-size: cover;        /* Arka plan resminin kapsayıcıya sığacak şekilde boyutlandırılması */
+            width:150px;
+            background-attachment: fixed; /* Arka plan resminin sayfa kaydırıldığında sabit kalması */
+            background-attachment: scroll; /* Arka plan resminin sayfa kaydırıldığında hareket etmesi */  
+        }
+    </style>
+</head>
+
+<body>
+    <p>Merhaba, bu bir paragraf metnidir.</p>
+    <h1>Merhaba, bu bir başlıktır.</h1>
+</body>
+
+</html>
