@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+p {
+    background-color: aqua;
+     width: 50px;
+     text-align: center;
+     margin: 0px; /* Kutukar arasındaki boşluğu aldık */
+      /* Biz anneye flexbox özelliğini vermeliyiz p yani çocuklara versek çalışmaz o yüzde anneye yani div flexboz özelliğini verdik */
+}
+div{
+    display: flex; /* Yan yana dizdik */
+    justify-content: right; /* Yan yana aldığımız kutuları sağ tarafa çektik */
+}
+    </style>
+</head>
+<body>
+<div>
+    <p>Kutu1</p>
+    <p>Kutu2</p>
+    <p>Kutu3</p>
+</div>
+</body>
+</html>
