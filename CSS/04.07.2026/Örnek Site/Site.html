@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@500;600;700&display=swap" rel="stylesheet">
     <style>
         body {
-            min-height: 200vh;
+            min-height: 300vh;
             border-width: 2px;
             border-style: solid;
             border-color: #ffb000;
@@ -137,13 +137,90 @@
 
         }
 
-        p {
-            background-image: url("nvidia-geforce-rtx.jpg");
-            width: 50px;
-            height: 30px;
+        .altlogo {
             display: flex;
             justify-content: center;
+            width: 100%;
+            height: 125px;
+            gap: 100px;
+
+            margin-top: 100px;
+
+
+
         }
+
+        .overview {}
+
+        .overviewp {
+            display: flex;
+            color: #ffb000;
+            font-style: italic;
+            justify-content: center;
+            margin-top: 200px;
+            display: flex;
+            text-align: center;
+            font-family: "Rajdhani", sans-serif;
+            font-weight: bolder;
+            font-size: xx-large;
+        }
+
+        .overviewp2 {
+            display: flex;
+
+            justify-content: center;
+            font-family: 'Rajdhani', sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: #b8b8b8;
+            font-size: larger;
+
+        }
+
+        .overviewp3 {
+            display: flex;
+            justify-content: center;
+            font-family: 'Exo 2', sans-serif;
+            font-weight: bolder;
+            font-size: xx-large;
+            color: #d6d6d6;
+
+        }
+
+        .learn {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .learn button {
+
+            width: 180px;
+            height: 50px;
+
+            background: #ffb000;
+            color: #0d0d0d;
+
+            border: none;
+            border-radius: 5px;
+
+            font-family: 'Exo 2', sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+
+            cursor: pointer;
+            transition: .3;
+        }
+
+        .learn button:hover{
+
+    background:#ffd04d;
+
+    box-shadow:0 0 15px #ffb000;
+
+}
     </style>
 
 </head>
@@ -154,7 +231,7 @@
         <div class="logo"></div>
 
         <nav>
-            <a href="#overview">OVERVIEW</a>
+            <a href="#overview" class="overview">OVERVIEW</a>
             <a href="#performance">PERFORMANCE</a>
             <a href="#cooling">COOLING</a>
             <a href="#display">DISPLAY</a>
@@ -167,8 +244,34 @@
         <div id="menu">
             <h1>ASUS TUF GAMİNG F16</h1>
             <h2>THE TRUE DEFİNİTİON OF GAMING</h2>
-            
+
         </div>
+        <div class="altlogo">
+            <img src="/CSS/04.07.2026/Örnek Site/nvidia-geforce-rtx.jpg" alt="Nvidia logo">
+            <img src="/CSS/04.07.2026/Örnek Site/Intel_Core_i5_Logo_2020.png" alt="İntel logo">
+
+        </div>
+        <div class="overviewp">
+            <p>OVERVİEW</p>
+
+        </div>
+        <div class="overviewp2">
+            <p>POWER , DURABİLİTY , PERFORMANCE</p>
+
+        </div>
+        <div class="overviewp3">
+            <p>ASUS TUF Gaming F16 combines military-grade <br>
+                durability with powerful Intel and NVIDIA <br>
+                hardware for gamers and creators.</p>
+
+        </div>
+        <div class="learn">
+            <button>LEARN MORE</button>
+        </div>
+        <section class="overview-picture">
+            <img src="/CSS/04.07.2026/Örnek Site/fwebp (1).webp" alt="Hadise ifşa">
+        </section>
+
     </article>
 
 
