@@ -1,1 +1,1 @@
-alert("Hadise İfşa");
+alert("Html");
