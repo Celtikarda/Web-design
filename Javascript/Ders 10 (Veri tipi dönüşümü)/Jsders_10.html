@@ -7,8 +7,20 @@
   </head>
   <body>
     <script>
-
-        
+      //Prompt() ile alınan bütün değerler string şeklindedir. Bunu şu aşağıdaki kod ile anlabiliriz.
+      //let yas=prompt("Yasınızı giriniz:")
+      //console.log(typeof yas);
+      //Bunu değiştirmek için aşağıdaki kodlar kullanılır
+      //Birinci Yöntem
+      //let yas=Number(prompt("Yasinizi giriniz:"));
+      //document.write(yas);
+      //Önce parantez içi çalıştı sonra kullanıcının girişi ile birlikte dıştaki number ile number değişkenine denüştü
+      //İkinci Yöntem
+      let sayigir = prompt("Sayı giriniz:"); //Kullanıcıdan input istedik
+      sayigir = Number(sayigir); //Prompt olduğundan string cinsinde o yüzden numbere çevirdik
+      let sayigir1 = prompt("Sayı giriniz:"); //İkinci input istedik
+      sayigir1 = Number(sayigir1); //Prompt olduğundan string cinsinde o yüzden numbere çevirdik
+      document.write(sayigir + sayigir1); // En sonda bunları ikiside number cinsinden olduğundan direkt sayısal olarak toplandı
     </script>
   </body>
 </html>
