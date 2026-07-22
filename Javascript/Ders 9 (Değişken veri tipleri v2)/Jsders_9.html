@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //Çift tırnak içine tek tırnak tek tırnak içine çift tırnak yazılır
+      var ad = "Onun adı 'Kemal' idi ";
+      document.write(ad);
+      document.write("<br>");
+      var degisken = 'Onun adı "Mustafa" idi';
+      document.write(degisken);
+      document.write("<br>");
+      //Bir değişkene hem sayısal hemde sözel değer atarsanız sözel toplama yapılır
+      var x=1 + 2 + "  " + "Toplandı";
+      document.write(x);
+      document.write("<br>");
+      //Değişkene atanan ilk değer string tipindeyse sonraki gelecek değişkenler string tipinde olur.Mesela sayılar yan yana dizilir
+      var tip = "stringTipi" + 3 + 4;
+      document.write(tip);
+      
+    </script>
+  </body>
+</html>
