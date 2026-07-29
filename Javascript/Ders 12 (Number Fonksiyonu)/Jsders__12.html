@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <script>
-        
+        var a, b, c, toplam = 0; // Varible tanımladık, toplam=0 daki sıfır gereksiz olabilir ama C++'dan gelen refleks.
+        a = Number(prompt("Sayı1 giriniz:")); // İkiside prompt türünde olduğundan dolayı ,
+        b = Number(prompt("Sayı2 giriniz:"));  //toplamıda string tipinden olur. Bunu engellemek için "Number" kullanılır. Numberi parantez içine almayı da unutmayalım.
+        c = Number(prompt("Sayı girmeyiniz:"))
+        çarp = a*b*c;
+        alert("Sayılar:" + a + "  " + b + "  " + c + "\n Sayilerin çarpımı:" + çarp);
     </script>
 </body>
+
 </html>
