@@ -8,11 +8,11 @@
 <body>
     <script>
         var a,b,c=1,d;
-       a=prompt("A'yı giriniz:"); //Nereye gideceğini belirlemek için promptun içindeki değişkene atarız.
+       a=Number(prompt("A'yı giriniz:"));//Nereye gideceğini belirlemek için promptun içindeki değişkene atarız.
        a+=2;
-       b=prompt("B'yi giriniz:");//Nereye gideceğini belirlemek için promptun içindeki değişkene atarız.
+       b=Number(prompt("B'yi giriniz:"));//Nereye gideceğini belirlemek için promptun içindeki değişkene atarız.
        b*=3;
-       d=prompt("C'nin değeri 1dir. Kaç ile çarpılsın?" + d);//Nereye gideceğini belirlemek için promptun içindeki değişkene atarız. Kullanıcı d değerini girdiğinden  dolayı d  değişkenine eşitlenir.
+       d=Number(("C'nin değeri 1dir. Kaç ile çarpılsın?"));//Nereye gideceğini belirlemek için promptun içindeki değişkene atarız. Kullanıcı d değerini girdiğinden  dolayı d  değişkenine eşitlenir.
        c*=d;
        alert("Sonuçlar:"+ "  " + a + "  "+ b + "  " + d );
 

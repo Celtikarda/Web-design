@@ -10,9 +10,9 @@
 <body>
     <script>
         var a, b, ortalama;
-        a = Number(("Sayı giriniz:"));
-        b = Number(("Sayı2 giriniz:"));
-        ortalama = (a + b) / 2;
+        a = Number(prompt("Sayı giriniz:"));
+        b = Number(prompt("Sayı2 giriniz:"));
+        ortalama = (a + b) / 2; //Parantez ile işlem önceliği ayarlanmıştır. Parantez olmasa önce bölme ardından toplama yapardı.
         alert("Ortalama:"+ortalama);
     </script>
 </body>

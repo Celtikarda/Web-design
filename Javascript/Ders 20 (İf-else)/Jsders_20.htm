@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=;, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var ort, vize, final;
+        vize = Number(prompt("Vize notunu giriniz:"));
+        document.write("Vize notunuz:" +vize);
+        document.write("<br>");
+        final = Number(prompt("Final notunu giriniz:"));
+        document.write("Final notunuz:"+final);
+        document.write("<br>");
+        ort=(vize+final)/2;
+        document.write("Ortalamanız: " + ort);
+        document.write("<br>");
+        if(ort<50){
+            document.write("Kaldınız!");
+        }
+        else if(ort<65){
+            document.write("Yırtınız!")
+        }
+        else if(ort<90){
+            document.write("Geçtiniz!!")
+        }
+        else{
+            document.write("Abartmayın!!")
+        }
+    </script>
+</body>
+
+</html>
