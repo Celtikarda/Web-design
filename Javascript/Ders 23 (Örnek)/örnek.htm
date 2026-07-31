@@ -7,10 +7,10 @@
 </head>
 <body>
     <script>
-        var toplam=0, Nword;
-        Nword = Number(prompt("Sayı giriniz:"));
-        for(var a=0;a<=Nword;a=a+3) {
-            toplam=toplam+ a; //Döngüden gelen sayıları bu komut sayesinde topladık.
+        var toplam=0, Nword; //Değişkenleri tanımladık.
+        Nword = Number(prompt("Sayı giriniz:"));  // Değişkeni burda number ile prompta atadık.
+        for(var a=0;a<=Nword;a=a+3) { //Burda işlemler için for döngüsü açtık.
+            toplam=toplam+ a; //Her dongüde gelen sayıyı döngüde ekler.
 
         }
         document.write("Toplam:" + toplam);
