@@ -51,7 +51,7 @@ Tamamlanan Ders: **30 / ÇOK**
 - [X] if
 - [X] if-else
 - [X] else if
-- [ ] switch-case
+- [X] switch-case
 
 
 ---
@@ -200,7 +200,7 @@ Tamamlanan Ders: **30 / ÇOK**
 ---
 
 # 💻 Mini Projeler
-
+- [Developing] Mini ATM 
 - [ ] Hesap Makinesi
 - [ ] To Do List
 - [ ] Sayaç
@@ -235,11 +235,13 @@ Tamamlanan Ders: **30 / ÇOK**
 
 # 📌 Tekrar Edilecek Konular
 
-- [ ]
+- [ ] 
 
 - [ ]
 
 - [ ]
+
+- [ ] Döngüler yarın için (04.08.2026).
 
 ---
 
@@ -257,9 +259,9 @@ Tamamlanan Ders: **30 / ÇOK**
 
 Buraya çalışırken öğrendiğim en önemli ipuçlarını yazacağım.
 
--
+-Switch Case yazarken "break;" ile bitirmeyi bilelim.
 
--
+-Switch Case yazarken "default:" daki ":" unutma.
 
 -
 
@@ -270,7 +272,7 @@ Buraya çalışırken öğrendiğim en önemli ipuçlarını yazacağım.
 ## Kısa Vadeli
 
 - [ ] JavaScript Temellerini Bitir
-- [ ] İlk ATM Projesini Yap
+- [X] İlk ATM Projesini Yap
 - [ ] İlk Hesap Makinesini Yap
 
 ---

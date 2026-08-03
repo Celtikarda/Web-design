@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var bakiye, cekilecekPara, yatırılacakPara, secim;
+        bakiye = 1000;
+
+        secim = Number(prompt("                                      ====== ATM ======\nYapmak istediğiniz işlemi numara ile seçiniz.(1-4) \n1-Para Çekme\n2-Para Yatırma\n3-Bakiye Sorgulama\n4-Çıkış"));
+
+        switch (secim) {
+            case 1:
+                cekilecekPara = Number(prompt("Çekmek istediğiniz tutarı giriniz:"));
+                bakiye = bakiye - cekilecekPara;
+                if (bakiye < 0) {
+                    alert("Bakiye yetersizdir. Lütfen tekrar deneyiniz.");
+                }
+                else if (cekilecekPara <= 1000) {
+                    alert("İşlem başarılı, bakiyeniz:" + bakiye+"\n------ İşlem Tamamlandı ------");
+                }
+                break; //Break ile case 1 sonlandırıldı. Unutmayın break kullanmazsanız case 2 de çalışır.
+            case 2:
+                yatırılacakPara = Number(prompt("Yatırmak istediğiniz tutarı giriniz:"));
+                bakiye = bakiye + yatırılacakPara;
+                alert("İşlem başarılı,bakiyeniz:" + bakiye+"\n------ İşlem Tamamlandı ------");
+                break;
+            case 3:
+                alert("Bakiyeniz:" + bakiye+"\n------ İşlem Tamamlandı ------");
+                break;
+            case 4:
+                alert("ATM'den çıkış yapılıyor...");
+                break;
+            default:
+                alert("Hatalı seçim yaptınız. Lütfen tekrar deneyiniz.");
+        }
+    </script>
+</body>
+
+</html>
