@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,15 +7,15 @@
 </head>
 <body>
     <script>
-        //String tipinde hata taptık ona tekrar dikkat edelim.
-        var w=Number("0") , toplam=Number("0");
+        //String tipinde hata yaptık ona tekrar dikkat edelim.
+        var w=Number("0") , toplam=Number("0"); //String tipinde yazdığımız için hata aldık. Number tipinde yazarsak hata almayız.
         while(w<12){
             document.write(w+"<br>");
-            w++
-            toplam=toplam+w;
+            w+=2;//w değişkenini 2 artırdık. Buraya dikkat edelim. w+=2; ile w=w+2; aynı şeydir. Burada "+=" operatörü kullanılmıştır.
+            toplam=toplam+w;//Toplam değişkenine w değişkenini ekledik.
             
         }
-        document.write("Toplamı:"+toplam);
+        document.write("Toplamı:"+toplam);//Toplam değişkenini ekrana yazdırdık.
     </script>
 </body>
 </html>

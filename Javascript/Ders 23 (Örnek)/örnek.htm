@@ -1,20 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <script>
-        var toplam=0, Nword; //Değişkenleri tanımladık.
-        Nword = Number(prompt("Sayı giriniz:"));  // Değişkeni burda number ile prompta atadık.
-        for(var a=0;a<=Nword;a=a+3) { //Burda işlemler için for döngüsü açtık.
-            toplam=toplam+ a; //Her dongüde gelen sayıyı döngüde ekler.
+        var toplam = 0, Nword; //Değişkenleri tanımladık.
+        Nword = Number(prompt("Sayı giriniz:"));  // Değişkeni burda number(prompt()) atadık.
+        for (var a = 0; a <= Nword; a = a + 3) { //Burda işlemler için for döngüsü açtık.
+            toplam = toplam + a; //Her dongüde gelen sayıyı döngüde ekler.
 
         }
         document.write("Toplam:" + toplam);
 
     </script>
 </body>
+
 </html>
