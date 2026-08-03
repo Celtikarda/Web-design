@@ -1,27 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>Doğru sayı bilme</title>
 </head>
 
 <body>
     <script>
+        //Do-while döngüsü ile doğru sayıyı tahmin etme oyunu yapıyoruz.
         var dogrusayi;
         do {
-            dogrusayi=Number(prompt("Doğru sayiyi tahmin etmeye çalışınız!!!"));
-            document.write("Girilen sayılar:"+dogrusayi);
+            dogrusayi = Number(prompt("Doğru sayiyi tahmin etmeye çalışınız!!! (1-100)"));
+            document.write("Girilen sayılar:" + dogrusayi);
             document.write("<br>");
-            
-            
+            if (dogrusayi < 91) {
+                alert("Daha büyük bir sayı giriniz!!!");
+
+            }
+            else if (dogrusayi > 91) {
+                alert("Daha küçük bir sayı giriniz!!!");
+            }
+
         }
-        while(dogrusayi!=91);
-            document.write("Doğru sayı!!!");
-        
+        while (dogrusayi != 91); //91 sayısı bulunmadığı sürece döngü devam edecek. 91 sayısı bulunduğunda döngü kırılacaktır.
+        document.write("Doğru sayı!!!");
+
 
     </script>
 </body>
 
-</html>
+</html
