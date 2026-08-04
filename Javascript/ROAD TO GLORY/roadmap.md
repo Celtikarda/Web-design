@@ -8,7 +8,7 @@
 
 # 📊 Genel İlerleme
 
-Tamamlanan Ders: **30 / ÇOK**
+Tamamlanan Ders: **32 / ÇOK**
 
 İlerleme:
 
@@ -37,10 +37,10 @@ Tamamlanan Ders: **30 / ÇOK**
 # ➕ 2. Operatörler
 
 - [ ] Aritmetik Operatörler
-- [ ] Atama Operatörleri
+- [X] Atama Operatörleri
 - [ ] Karşılaştırma Operatörleri
 - [ ] Mantıksal Operatörler
-- [ ] Artırma / Azaltma (++ --)
+- [X] Artırma / Azaltma (++ --)
 - [ ] Mod Alma (%)
 - [ ] Üs Alma (**)
 
@@ -187,7 +187,7 @@ Tamamlanan Ders: **30 / ÇOK**
 # 🧠 15. Algoritmalar
 
 - [X] Sayı Tahmin Oyunu
-- [ ] ATM Sistemi
+- [DEVELOPİNG] ATM Sistemi
 - [ ] Not Hesaplama
 - [ ] Asal Sayı
 - [ ] Faktöriyel
@@ -300,9 +300,9 @@ Toplam Ders:ÇOK
 
 Tamamlanan Ders:30
 
-Toplam Commit:32
+Toplam Commit:37
 
-Toplam Proje:0
+Toplam Proje:1
 
 Toplam README:0
 
