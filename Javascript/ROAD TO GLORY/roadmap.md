@@ -23,7 +23,7 @@ Tamamlanan Ders: **32 / ÇOK**
 - [X] Yorum Satırları
 - [X] Değişkenler (var, let, const)
 - [X] Veri Tipleri
-- [ ] typeof
+- [X] typeof
 - [X] Number()
 - [X] String()
 - [ ] Boolean()
