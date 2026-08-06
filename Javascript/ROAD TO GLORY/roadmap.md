@@ -8,7 +8,7 @@
 
 # 📊 Genel İlerleme
 
-Tamamlanan Ders: **32 / ÇOK**
+Tamamlanan Ders: **37 / ÇOK**
 
 İlerleme:
 
@@ -241,7 +241,7 @@ Tamamlanan Ders: **32 / ÇOK**
 
 - [ ]
 
-- [ ] Döngüler yarın için (04.08.2026).
+- [X] Döngüler yarın için (04.08.2026).
 
 ---
 
@@ -249,7 +249,7 @@ Tamamlanan Ders: **32 / ÇOK**
 
 - [ ] Döngülerde mantık ile kodu birleştirme
 
-- [ ]
+- [ ] İçi boş değişken atamak
 
 - [ ]
 
@@ -298,9 +298,9 @@ Buraya çalışırken öğrendiğim en önemli ipuçlarını yazacağım.
 
 Toplam Ders:ÇOK
 
-Tamamlanan Ders:30
+Tamamlanan Ders:37
 
-Toplam Commit:37
+Toplam Commit:44
 
 Toplam Proje:1
 
