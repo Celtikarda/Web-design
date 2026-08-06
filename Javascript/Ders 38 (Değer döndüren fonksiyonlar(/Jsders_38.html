@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function küp(x) { // x parametreli fonksiyon tanımladık.
+            document.write(küp(3)); // Burda fonksiyonu sürekli çağırdığımızdan dolayı sonsuz döngüye girer ve çalışmaz. Ama üstte iken sonsuz döngüye girer çünkü sürekli kendini çağırır.
+            return x * x * x; // Return edilmeden önce işlem yaptırdık.
+            document.write(küp(3)); // Burda fonksiyon işe yaramaz çünkü parantez içinde returnden sonraki kodlar çalışmaz.
+        }
+        document.write(küp(4)); //Küp fonksiyonuna işlem tanımlamıştık. İşlem yapmak üzere fonksiyona gitti. İşlem yapıldıktan sonra return ile buraya döndü ve document.write ile ekrana yazdı
+        document.write("<br>");
+        document.write(küp(7));
+    </script>
+</body>
+
+</html>
