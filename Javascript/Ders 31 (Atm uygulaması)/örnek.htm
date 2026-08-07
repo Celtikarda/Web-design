@@ -9,12 +9,13 @@
 
 <body>
     <script>
-        var bakiye, cekilecekPara, yatırılacakPara, secim;
-        bakiye = 1000;
-
-        secim = Number(prompt("                                      ====== ATM ======\nYapmak istediğiniz işlemi numara ile seçiniz.(1-4) \n1-Para Çekme\n2-Para Yatırma\n3-Bakiye Sorgulama\n4-Çıkış"));
-
-        switch (secim) {
+        var bakiye, cekilecekPara, yatırılacakPara, secim, sifre, secim2;
+         bakiye = 1000;
+        alert("ATM'YE HOŞGELDİNİZ!!");
+        sifre = Number(prompt("Lütfen şifrenizi giriniz:"));
+        if (sifre==1881){
+            alert("ATM'ye hoşgeldiniz...");
+             switch (secim) {
             case 1:
                 cekilecekPara = Number(prompt("Çekmek istediğiniz tutarı giriniz:"));
                 bakiye = bakiye - cekilecekPara;
@@ -22,16 +23,16 @@
                     alert("Bakiye yetersizdir. Lütfen tekrar deneyiniz.");
                 }
                 else if (cekilecekPara <= 1000) {
-                    alert("İşlem başarılı, bakiyeniz:" + bakiye+"\n------ İşlem Tamamlandı ------");
+                    alert("İşlem başarılı, bakiyeniz:" + bakiye + "\n------ İşlem Tamamlandı ------");
                 }
                 break; //Break ile case 1 sonlandırıldı. Unutmayın break kullanmazsanız case 2 de çalışır.
             case 2:
                 yatırılacakPara = Number(prompt("Yatırmak istediğiniz tutarı giriniz:"));
                 bakiye = bakiye + yatırılacakPara;
-                alert("İşlem başarılı,bakiyeniz:" + bakiye+"\n------ İşlem Tamamlandı ------");
+                alert("İşlem başarılı,bakiyeniz:" + bakiye + "\n------ İşlem Tamamlandı ------");
                 break;
             case 3:
-                alert("Bakiyeniz:" + bakiye+"\n------ İşlem Tamamlandı ------");
+                alert("Bakiyeniz:" + bakiye + "\n------ İşlem Tamamlandı ------");
                 break;
             case 4:
                 alert("ATM'den çıkış yapılıyor...");
@@ -39,6 +40,15 @@
             default:
                 alert("Hatalı seçim yaptınız. Lütfen tekrar deneyiniz.");
         }
+        }
+        else{
+            for(var hak=1;hak<=3;hak++);
+           hak = alert("Şifre yanlış lütfen tekrar deneyiniz!!!")
+        
+        }
+        
+
+       
     </script>
 </body>
 

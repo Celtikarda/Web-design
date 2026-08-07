@@ -2,7 +2,7 @@
 
 ## 🎯 Konu
 
-Proje başlangıcı
+Projenin Devamı
 
 ---
 
@@ -32,7 +32,7 @@ Normal ATM mantığı.
 ## ⚠️ Dikkat Edilmesi Gerekenler
 
 - Break ve default kavramı.
-- 
+- for döngüsü 
 - 
 
 ---
@@ -65,4 +65,4 @@ Normal ATM mantığı.
 ---
 
 ## 🔥 Bir Sonraki Hedef
-Switch case if biraz daha çalışmak.
+Switch case if biraz daha çalışmak.(Çalıştım ama bu sefer for eksik kaldı)

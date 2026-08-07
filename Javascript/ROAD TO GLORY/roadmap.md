@@ -8,7 +8,7 @@
 
 # 📊 Genel İlerleme
 
-Tamamlanan Ders: **37 / ÇOK**
+Tamamlanan Ders: **39 / ÇOK**
 
 İlerleme:
 
@@ -59,7 +59,7 @@ Tamamlanan Ders: **37 / ÇOK**
 # 🔁 4. Döngüler
 
 - [X] while
-- [] do-while
+- [X] do-while
 - [X] for
 - [X] break
 - [X] continue
@@ -298,9 +298,9 @@ Buraya çalışırken öğrendiğim en önemli ipuçlarını yazacağım.
 
 Toplam Ders:ÇOK
 
-Tamamlanan Ders:37
+Tamamlanan Ders:39
 
-Toplam Commit:44
+Toplam Commit:48
 
 Toplam Proje:1
 

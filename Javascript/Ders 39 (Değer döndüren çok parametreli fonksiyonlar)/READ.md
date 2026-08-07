@@ -22,7 +22,7 @@
 ``` function fonksiyonİsmi(parametre1,parametre2){
 return işlemler
 }
-
+burdada işlemler
 ---
 
 ## 💡 Mantığı
