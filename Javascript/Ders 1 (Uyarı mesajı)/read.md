@@ -8,7 +8,7 @@ Alert
 
 ## 📖 Öğrendiğim Kavramlar
 
-- alert()
+- alert = Kullanıcıyı uyarmak/uyarı vermek için kullanılır.
 - 
 - 
 - 
@@ -19,19 +19,19 @@ Alert
 
 ```javascript
 
-```
+``` alert("Kullanıcıya ne yazmak isterse buraya yazar.")
 
 ---
 
 ## 💡 Mantığı
 
-
+Kullanıcıya uyarı vermek istenirse kullanılabilecek yöntemlerden bir tanesi.
 
 ---
 
 ## ⚠️ Dikkat Edilmesi Gerekenler
 
-- 
+- Tırnak içine yazılmalı.
 - 
 - 
 
@@ -39,7 +39,7 @@ Alert
 
 ## ❌ Yaptığım Hatalar
 
-- 
+- Hata yok
 -
 
 ---
@@ -60,10 +60,10 @@ Alert
 ---
 
 ## 🧠 Kendime Notlar
-
+Alerti başka şekilde kullanmayı öğrenmek. 
 
 
 ---
 
 ## 🔥 Bir Sonraki Hedef
-
+Diğer read.md dosyalarını doldurmak.
