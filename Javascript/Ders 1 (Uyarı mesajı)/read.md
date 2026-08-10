@@ -39,7 +39,7 @@ Kullanıcıya uyarı vermek istenirse kullanılabilecek yöntemlerden bir tanesi
 
 ## ❌ Yaptığım Hatalar
 
-- Hata yok
+- Metni tırnak içine almamak
 -
 
 ---
@@ -47,8 +47,9 @@ Kullanıcıya uyarı vermek istenirse kullanılabilecek yöntemlerden bir tanesi
 ## ✅ Doğru Kullanım
 
 ```javascript
-
-```
+var uyari = "Uyarı";
+var uyari2 = "Uyari2";
+```alert(uyari + uyari2);
 
 ---
 
@@ -61,7 +62,7 @@ Kullanıcıya uyarı vermek istenirse kullanılabilecek yöntemlerden bir tanesi
 
 ## 🧠 Kendime Notlar
 Alerti başka şekilde kullanmayı öğrenmek. 
-
+Alert yada başka şekilde mesaj vereceksek metni "" içine yazmak. 
 
 ---
 
