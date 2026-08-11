@@ -11,7 +11,7 @@ Değer döndürmeyen fonksiyonlara giriş
 - function değişkeni
 - Fonksiyon tanımlama
 - Fonksiyon çağırma
-- Parametre = Fonksiyonun  dışarıdan aldığı bilgiyi temsil eden değişkendir.
+- Parametre = Fonksiyonun dışarıdan aldığı bilgiyi temsil eden değişkendir.
 - Fonksiyon = Bir işi yapmak için çağrılan ve tekrar tekrar kullanılabilen kod parçacığıdır.
 ---
 
