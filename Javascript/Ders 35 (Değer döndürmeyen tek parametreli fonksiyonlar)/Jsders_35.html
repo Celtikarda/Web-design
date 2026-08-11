@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <script>
-     //İlk önce fonsiyonu tanımlayalım:
-     function parametreliFonksiyon(parametre) {
-        document.write("isim:"+parametre+"<br>"); //Parametereyi burda tanımladık ve fonksiyon çağrıldığında parametreyi yazdırır.
-     } 
-     //Fonskiyonu burda çağıralım ama parametreyi unutmamak lazım. Çağırırken fonksiyonİsmi(parametreİsmi); şeklkinde çağırılır.
-     parametreliFonksiyon("Ahmet");
-     //Tekrar tekrar çağırabiliriz.
-     parametreliFonksiyon("Mehmet");
-     parametreliFonksiyon("Ayşe");
-     parametreliFonksiyon("Fatma");
+        //İlk önce fonsiyonu tanımlayalım:
+        function parametreliFonksiyon(parametre) {
+            document.write("isim:" + parametre + "<br>"); //Parametereyi burda tanımladık ve fonksiyon çağrıldığında parametreyi yazdırır.Parametre, fonksiyon tanımlanırken yazılır ve dışarıdan gelecek değeri temsil eder. Fonksiyon çağrılırken gönderilen değer parametreye aktarılır. String bir değer gönderiyorsak tırnak kullanırız.
+        }
+        //Fonskiyonu burda çağıralım ama parametreyi unutmamak lazım. Çağırırken fonksiyonİsmi(parametreİsmi); şeklkinde çağırılır.
+        parametreliFonksiyon("Ahmet");
+        //Tekrar tekrar çağırabiliriz.
+        parametreliFonksiyon("Mehmet");
+        parametreliFonksiyon("Ayşe");
+        parametreliFonksiyon("Fatma");
     </script>
 </body>
+
 </html>
