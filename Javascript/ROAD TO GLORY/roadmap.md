@@ -8,7 +8,7 @@
 
 # 📊 Genel İlerleme
 
-Tamamlanan Ders: **39 / ÇOK**
+Tamamlanan Ders: **43 / ÇOK**
 
 İlerleme:
 
@@ -69,9 +69,9 @@ Tamamlanan Ders: **39 / ÇOK**
 
 # 📦 5. Fonksiyonlar
 
-- [ ] function
-- [ ] Parametre
-- [ ] Return
+- [X] function
+- [X] Parametre
+- [X] Return
 - [ ] Arrow Function
 - [ ] Scope
 - [ ] Callback
@@ -180,7 +180,7 @@ Tamamlanan Ders: **39 / ÇOK**
 - [ ] Spread (...)
 - [ ] Rest (...)
 - [ ] Modules
-- [ ] Optional Chaining
+- [ X] Optional Chaining
 
 ---
 
@@ -251,7 +251,7 @@ Tamamlanan Ders: **39 / ÇOK**
 
 - [ ] İçi boş değişken atamak
 
-- [ ]
+- [ ] Return mantığı
 
 ---
 
@@ -263,7 +263,7 @@ Buraya çalışırken öğrendiğim en önemli ipuçlarını yazacağım.
 
 -Switch Case yazarken "default:" daki ":" unutma.
 
--
+- Returndan sonra işlem yazmamak.
 
 ---
 
@@ -298,13 +298,13 @@ Buraya çalışırken öğrendiğim en önemli ipuçlarını yazacağım.
 
 Toplam Ders:ÇOK
 
-Tamamlanan Ders:39
+Tamamlanan Ders:43
 
-Toplam Commit:48
+Toplam Commit:57
 
 Toplam Proje:1
 
-Toplam README:0
+Toplam README:18
 
 LeetCode Çözülen Soru:0
 
