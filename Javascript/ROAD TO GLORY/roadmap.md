@@ -300,7 +300,7 @@ Toplam Ders:ÇOK
 
 Tamamlanan Ders:43
 
-Toplam Commit:57
+Toplam Commit:58
 
 Toplam Proje:1
 
