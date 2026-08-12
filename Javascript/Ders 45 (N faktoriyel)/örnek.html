@@ -9,13 +9,15 @@
 
 <body>
     <script>
-        function sıfırdan(x) {
-            for (let n = 1; n <= x; n++) {
-                document.write("Merhaba<br>");
+        function nfato(f) {
+            let sonuc = 1;
+            for (let i = 1; i <= f; i++) {
+                sonuc = sonuc * i;
             }
+            return sonuc;
         }
-        x = Number(prompt("X:"));
-        sıfırdan(x);
+        f = Number(prompt("F:"));
+        document.write("Sonuc:" + nfato(f));
     </script>
 </body>
 
