@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function alan(alt, dik) {
+            alan = (alt * dik) / 2;
+            return alan; // Alanı geri dönderdik o yüzden "return alan;" dedik.
+        }
+        alt = Number(prompt("Taban: "));
+        dik = Number(prompt("Yükseklik: "));
+        document.write("Alan: " + alan(alt, dik));
+    </script>
+</body>
+
+</html>
