@@ -1,14 +1,14 @@
 # 📚 Ders  
 
 ## 🎯 Konu
-
+Span etiketi 
 
 
 ---
 
 ## 📖 Öğrendiğim Kavramlar
 
-- 
+- span = Belli bir kod parçasını gruplandırmak.
 - 
 - 
 - 
@@ -19,19 +19,19 @@
 
 ```HTML
 
-```
+```<span>Metnin içindeki küçük parçayım</span>
 
 ---
 
 ## 💡 Mantığı
-
+CSS'de ya da başka yerde kullanmak üzere küçük parçacıklara ayırmak.
 
 
 ---
 
 ## ⚠️ Dikkat Edilmesi Gerekenler
 
-- 
+- Başlık içinde kullanmak gereksizdir. Çünkü "h" etiketi span etiketini yutar.
 - 
 - 
 
@@ -66,4 +66,4 @@
 ---
 
 ## 🔥 Bir Sonraki Hedef
-
+Diğer readmelerrrrr!!!!!
