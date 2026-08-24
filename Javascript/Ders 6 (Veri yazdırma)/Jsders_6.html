@@ -1,23 +1,25 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
+<!DOCTYPE HTML>
+<html lang="tr">
 
-  <body>
-    <h1 id="Asus"></h1>
-    <script>
-      //Birinci yöntem
-      //alert("Jarvis Fridaya selam söyle")
-      var ad = "Mehmet Karahanlı";
-      //alert(ad) //Metin yazacaksak çift tırnak içine alınmalı
-      //console.log(ad);
-      /*document.write("Bugün cuma");
-       document.write("</br>");
-       document.write(ad); */
-      document.getElementById("Asus").innerHTML = ad;
-    </script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <h1 id="Asus"></h1>
+  <script>
+    //Birinci yöntem
+    //alert("Jarvis Fridaya selam söyle") //Kullanıcıya uyarı yöntemi ile uyarı verdik
+    var ad = "Mehmet Karahanlı";
+    //alert(ad) Metin yazacaksak çift tırnak içine alınmalı. Burda değişken yazdığımızdan direkt değişkenin ismini yazdık.
+    //console.log(ad); Konsola yazdı. 
+    /*document.write("Bugün cuma");
+     document.write("</br>");
+     document.write(ad); */
+    document.getElementById("Asus").innerHTML = ad;  // HTML içerisindeki id değerine sahip olan elementi bulup Javascript'ten seçmemizi sağlar. ".innerhtml" ise seçtiğimiz HTML elementinin içeriğini okur veya değiştirir. Bu örnekte içeriğini değiştirmiştir.
+  </script>
+</body>
+
 </html>
