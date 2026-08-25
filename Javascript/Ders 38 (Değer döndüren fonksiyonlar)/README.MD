@@ -8,7 +8,7 @@ Değer döndüren fonksiyonlar
 
 ## 📖 Öğrendiğim Kavramlar
 
-- Return = 
+- Return = Fonksiyondan gelen değeri geri döndürmeye yarar.
 - 
 - 
 - 
