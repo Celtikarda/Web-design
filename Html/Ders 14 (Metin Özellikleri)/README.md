@@ -3,6 +3,7 @@
 ## 🎯 Konu
 
 Metin düzenlemek için kullanılan etiketler.
+
 ---
 
 ## 📖 Öğrendiğim Kavramlar
