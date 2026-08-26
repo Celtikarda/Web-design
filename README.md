@@ -1,9 +1,10 @@
-# 🌐 Kişisel Web Sayfam 
+# 🌐 Kişisel Web Sayfam
 
 Bu proje, front-end geliştirme becerilerimi sergilemek amacıyla sıfırdan tasarladığım kişisel web sayfamdır. Modern web standartları gözetilerek, kullanıcı dostu ve tamamen duyarlı (responsive) bir yapıda geliştirilmiştir.
 
 ## 🔗 Canlı Demo
-Projeyi canlı olarak incelemek için tıklayınız: https://github.com/Celtikarda/Web-design/tree/main/CSS/%C3%96rnek%20Site
+
+Projeyi canlı olarak incelemek için tıklayınız: <https://github.com/Celtikarda/Web-design/tree/main/CSS/%C3%96rnek%20Site>
 
 ## 🛠️ Kullanılan Teknolojiler
 
@@ -22,5 +23,6 @@ Projeyi canlı olarak incelemek için tıklayınız: https://github.com/Celtikar
 Bu projeyi kendi bilgisayarınızda çalıştırmak ve kodları incelemek isterseniz şu adımları izleyebilirsiniz:
 
 1. Bu repoyu bilgisayarınıza klonlayın:
+
    ```bash
    git clone [https://github.com/Celtikarda/Web-design](https://github.com/Celtikarda/Web-design)

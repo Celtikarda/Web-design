@@ -55,16 +55,15 @@ Video eklemek istersek "video" yazıp enterla.
 
 ## 🧪 Bu Derste Yazdığım Örnekler
 
-- 
-- 
+-
+-
 
 ---
 
 ## 🧠 Kendime Notlar
 
-
-
 ---
 
 ## 🔥 Bir Sonraki Hedef
+
 Metin düzenleme

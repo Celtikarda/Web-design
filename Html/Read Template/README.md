@@ -2,16 +2,14 @@
 
 ## 🎯 Konu
 
-
-
 ---
 
 ## 📖 Öğrendiğim Kavramlar
 
-- 
-- 
-- 
-- 
+-
+-
+-
+-
 
 ---
 
@@ -25,21 +23,19 @@
 
 ## 💡 Mantığı
 
-
-
 ---
 
 ## ⚠️ Dikkat Edilmesi Gerekenler
 
-- 
-- 
-- 
+-
+-
+-
 
 ---
 
 ## ❌ Yaptığım Hatalar
 
-- 
+-
 -
 
 ---
@@ -54,16 +50,13 @@
 
 ## 🧪 Bu Derste Yazdığım Örnekler
 
-- 
-- 
+-
+-
 
 ---
 
 ## 🧠 Kendime Notlar
 
-
-
 ---
 
 ## 🔥 Bir Sonraki Hedef
-
