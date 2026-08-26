@@ -8,7 +8,7 @@
 
 # 📊 Genel İlerleme
 
-Tamamlanan Ders: **46 / ÇOK**
+Tamamlanan Ders: **43 / ÇOK**
 
 İlerleme:
 
@@ -288,4 +288,28 @@ Buraya çalışırken öğrendiğim en önemli ipuçlarını yazacağım.
 ## Uzun Vadeli
 
 - [ ] LeetCode Easy
-- [ ] Le
+- [ ] LeetCode Medium
+- [ ] React Öğren
+- [ ] Full Stack Yolculuğuna Başla
+
+---
+
+# 📈 İstatistikler
+
+Toplam Ders:ÇOK
+
+Tamamlanan Ders:43
+
+Toplam Commit:58
+
+Toplam Proje:1
+
+Toplam README:18
+
+LeetCode Çözülen Soru:0
+
+---
+
+# 🔥 Motivasyon
+
+> "Dünkü halinden daha iyi olmak yeterlidir."

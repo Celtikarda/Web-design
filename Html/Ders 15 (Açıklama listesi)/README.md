@@ -19,8 +19,8 @@ Açıklama listesi oluşturma
 ```HTML
 
 ```  <dl>
-        <dd>Açıklama listesinin başlığı</dd>
-        <dt>Açıklama listesinin açıklaması</dt>
+        <dt>Açıklanacak listenin terimi</dt>
+        <dd>Açıklanacak terimin açıklaması</dd>
     </dl>
     <dl>
 
@@ -32,7 +32,7 @@ Açıklama listesi oluşturma
 
 ## ⚠️ Dikkat Edilmesi Gerekenler
 
-- Önce dl sonra dd sonra dt kullanılır.
+- Önce dl sonra dt sonra dd kullanılır.
 -
 -
 
@@ -41,7 +41,7 @@ Açıklama listesi oluşturma
 ## ❌ Yaptığım Hatalar
 
 -
--
+- Sırayı karıştırmak. 
 
 ---
 
