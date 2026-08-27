@@ -1,4 +1,4 @@
-# 📚 Ders  
+# 📚 Ders  9
 
 ## 🎯 Konu
 Span etiketi 
@@ -19,7 +19,7 @@ Span etiketi
 
 ```HTML
 
-```<span>Metnin içindeki küçük parçayım</span>
+```<span>Metnin içindeki küçük parçayım.</span>
 
 ---
 

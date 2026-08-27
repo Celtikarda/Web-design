@@ -10,12 +10,12 @@ Link, link işlemleri
 
 - href = Açılımı "hypertext referance". Bağlantının gideceği adresi belirler.
 - target="_blank" = Linke basıldığı zaman linki yeni sekmede açar.
-- title="" = Linkin üzerine geldiğinde yazı çıkmasını sağlar.
+- title="Yazı" = Linkin üzerine geldiğinde yazı çıkmasını sağlar.
 - Audio = Eğer HTML sayfamıza ses eklemek istersek kullanırız.
-- Controls = HTML sayfamıza eklenen ses dosyasını kontrol etmek için kullanılır.
-- Autoplay = HTML sayfamıza eklenen ses dosyanısını siteye ilk girişte çalışmasını istersek kullanırız.
-- Loop = HTML sayfamıza eklenen ses dosyasını döngü şeklinde oynatmak için kullanılır.
-- Muted = HTML sayfamıza eklenen ses dosyasını site ilk açıldığında sessiz çalışmasını istersek kullanılır.
+- Controls = HTML sayfamıza eklenen ses/video dosyasını kontrol etmek için kullanılır.
+- Autoplay = HTML sayfamıza eklenen ses/video dosyanısını siteye ilk girişte çalışmasını istersek kullanırız.
+- Loop = HTML sayfamıza eklenen ses/video dosyasını döngü şeklinde oynatmak için kullanılır.
+- Muted = HTML sayfamıza eklenen ses/video dosyasını site ilk açıldığında sessiz çalışmasını istersek kullanılır.
 
 ---
 
@@ -37,7 +37,7 @@ link vermek istersek href özelliğini kullanırız. Resime link için önce hre
 ## ⚠️ Dikkat Edilmesi Gerekenler
 
 - Önce href sonra img tanımlanır.
-- Audioda href yok src var.
+- Audio'da href yok src var.
 - 
 
 ---
