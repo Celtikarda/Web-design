@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<!--
+    Bu satır tarayıcıya belgenin HTML5 standardını kullandığını söyler.
+    HTML belgesinin en üstünde bulunur.
+-->
+
+
+<html lang="tr">
+<!--
+    HTML belgesinin başlangıcıdır.
+
+    lang="tr":
+    Sayfanın dilinin Türkçe olduğunu belirtir.
+-->
+
+
+<head>
+<!--
+    Sayfanın kullanıcıya doğrudan gösterilmeyen bilgileri
+    ve ayarları burada bulunur.
+
+    <meta>, <title>, <link> gibi etiketler genellikle
+    <head> içerisinde kullanılır.
+-->
+
+
+    <meta charset="UTF-8">
+    <!--
+        Sayfanın karakter kodlamasını belirler.
+
+        charset:
+        "character set" anlamına gelir.
+
+        UTF-8:
+        Türkçe karakterler dahil olmak üzere çok geniş
+        bir karakter kümesini destekleyen karakter kodlamasıdır.
+
+        Örneğin:
+        ç, ğ, ı, İ, ö, ş, ü
+
+        Bu karakterlerin doğru şekilde görüntülenmesine
+        yardımcı olur.
+    -->
+
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+    <!--
+        Mobil cihazlarda sayfanın nasıl görüntüleneceğini
+        belirlemeye yardımcı olur.
+
+        name="viewport":
+        Meta bilgisinin viewport ile ilgili olduğunu belirtir.
+
+        content:
+        Viewport için uygulanacak ayarları belirtir.
+
+
+        width=device-width
+        -------------------
+        Sayfanın görüntü genişliğinin cihazın ekran genişliğine
+        göre ayarlanmasını sağlar.
+
+
+        initial-scale=1.0
+        -----------------
+        Sayfanın ilk açılışındaki başlangıç ölçeğini belirtir.
+
+        1.0 = Normal başlangıç ölçeği.
+    -->
+
+
+    <meta
+        name="description"
+        content="HTML meta etiketlerini öğrendiğim çalışma sayfası."
+    >
+    <!--
+        Sayfanın açıklamasını belirtir.
+
+        name="description":
+        Meta bilgisinin türünün "description" olduğunu söyler.
+
+        content="...":
+        Açıklamanın kendisini belirtir.
+
+        Arama motorları bu açıklamayı bazı durumlarda
+        arama sonuçlarında kullanabilir.
+
+        Ancak arama motoru bu metni her zaman aynen
+        göstermek zorunda değildir.
+    -->
+
+
+    <meta
+        name="author"
+        content="Eyüp Arda"
+    >
+    <!--
+        Sayfanın yazarını belirtir.
+
+        name="author":
+        Bilginin yazar bilgisi olduğunu belirtir.
+
+        content="Eyüp Arda":
+        Yazarın adını belirtir.
+    -->
+
+
+    <meta
+        name="keywords"
+        content="HTML, CSS, JavaScript, Web Geliştirme"
+    >
+    <!--
+        Sayfayla ilişkili anahtar kelimeleri belirtir.
+
+        Virgülle ayırarak birden fazla kelime yazabiliriz.
+
+        Örneğin:
+        HTML
+        CSS
+        JavaScript
+        Web Geliştirme
+
+        Önemli:
+        Modern arama motorlarında keywords meta etiketi
+        SEO açısından önemli bir sıralama faktörü değildir.
+    -->
+
+
+    <title>Meta Etiketi | HTML Ders 18</title>
+    <!--
+        Tarayıcı sekmesinde görünen sayfa başlığını belirler.
+
+        <title> bir meta etiketi değildir.
+
+        Ancak <head> içerisinde bulunduğu için
+        <meta> etiketiyle birlikte sık sık kullanılır.
+    -->
+
+
+</head>
+<!--
+    <head> bölümünün sonu.
+-->
+
+
+<body>
+<!--
+    Kullanıcının tarayıcıda gördüğü asıl içerikler
+    genellikle <body> içerisinde bulunur.
+-->
+
+
+    <h1>Meta Etiketi</h1>
+    <!--
+        Sayfanın ana başlığı.
+    -->
+
+
+    <p>
+        Bu sayfada HTML'deki meta etiketlerini öğreniyorum.
+    </p>
+    <!--
+        Sayfada görüntülenen paragraf.
+    -->
+
+
+    <h2>Meta Etiketi Nedir?</h2>
+
+    <p>
+        Meta etiketi, HTML belgesi hakkında tarayıcıya
+        ve diğer sistemlere bilgi vermek için kullanılır.
+    </p>
+
+
+    <h2>Örnek Meta Etiketleri</h2>
+
+
+    <p>
+        Karakter kodlaması:
+        UTF-8
+    </p>
+
+
+    <p>
+        Sayfanın açıklaması:
+        HTML meta etiketlerini öğrendiğim çalışma sayfası.
+    </p>
+
+
+</body>
+<!--
+    Kullanıcıya gösterilen içerik bölümünün sonu.
+-->
+
+
+</html>
+<!--
+    HTML belgesinin sonu.
+-->
+```
+
+---
+
+# 🧠 Kodun Genel Yapısı
+
+Kodun iskeletini şöyle düşünebilirim:
+
+```text
+<!DOCTYPE html>
+        ↓
+<html>
+        ↓
+    <head>
+        ↓
+        meta bilgileri
+        title
+        diğer head etiketleri
+        ↓
+    </head>
+
+    <body>
+        ↓
+        Kullanıcının gördüğü içerikler
+        ↓
+    </body>
+
+</html>
+```
+
+---
+
+# 🔍 En Önemli Kısım
+
+Şu kodu özellikle iyi öğrenmeliyim:
+
+```html
+<meta name="description" content="HTML öğreniyorum.">
+```
+
+Çünkü burada `<meta>` etiketinin genel yapısını görüyorum:
+
+```text
+<meta
+   ↓
+name="description"
+   ↓
+content="HTML öğreniyorum."
+```
+
+Yani:
+
+```text
+<meta>       → Etiket
+name         → Bilginin türü
+description  → Bilginin türünün değeri
+content      → Bilginin içeriği
+```
+
+---
+
+# ⚡ Kısa Versiyon
+
+Gerçek bir HTML dosyasında bütün açıklamaları yazmam gerekmez.
+
+Genellikle şöyle kullanırım:
+
+```html
+<!DOCTYPE html>
+
+<html lang="tr">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="HTML meta etiketlerini öğrendiğim çalışma sayfası."
+    >
+
+    <meta
+        name="author"
+        content="Eyüp Arda"
+    >
+
+    <title>Meta Etiketi</title>
+
+</head>
+
+<body>
+
+    <h1>Meta Etiketi</h1>
+
+    <p>
+        HTML'de meta etiketlerini öğreniyorum.
+    </p>
+
+</body>
+
+</html>
+```
+
+**Önemli:** Yorum satırları (`<!-- ... -->`) tarayıcıda görünmez. Bunları burada özellikle ders çalışırken kodun ne yaptığını hatırlaman için kullandım.
