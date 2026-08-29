@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HTML Form Elemanları</title>
+</head>
+
+<body>
+
+    <h1>HTML Form Elemanları</h1>
+
+    <form>
+
+        <p>
+            Form, kullanıcıdan isim, soyisim, e-posta, şifre
+            ve benzeri bilgileri almak için kullanılır.
+        </p>
+
+
+        <!-- LABEL -->
+
+        <h2>Label</h2>
+
+        <p>
+            Input'un hangi bilgi için kullanıldığını belirtmek
+            için label etiketi kullanılır.
+        </p>
+
+        <label for="username">Kullanıcı adı:</label>
+
+        <input
+            type="text"
+            id="username"
+            name="username"
+        >
+
+
+        <!-- PASSWORD -->
+
+        <h2>Password</h2>
+
+        <p>
+            Kullanıcıdan şifre istenirse type="password" kullanılır.
+        </p>
+
+        <label for="password">Şifre:</label>
+
+        <input
+            type="password"
+            id="password"
+            name="password"
+            required
+        >
+
+
+        <!-- TEXT -->
+
+        <h2>Text</h2>
+
+        <p>
+            Normal bir yazı kutusu istenirse type="text" kullanılır.
+        </p>
+
+        <label for="name">İsim:</label>
+
+        <input
+            type="text"
+            id="name"
+            name="name"
+        >
+
+
+        <!-- EMAIL -->
+
+        <h2>Email</h2>
+
+        <p>
+            Kullanıcıdan e-posta adresi istenirse type="email" kullanılır.
+        </p>
+
+        <label for="email">E-posta:</label>
+
+        <input
+            type="email"
+            id="email"
+            name="email"
+        >
+
+
+        <!-- NUMBER -->
+
+        <h2>Number</h2>
+
+        <p>
+            Kullanıcıdan sayı istenirse type="number" kullanılır.
+        </p>
+
+        <label for="age">Yaş:</label>
+
+        <input
+            type="number"
+            id="age"
+            name="age"
+        >
+
+
+        <!-- DATE -->
+
+        <h2>Date</h2>
+
+        <p>
+            Kullanıcıdan tarih seçmesi istenirse type="date" kullanılır.
+        </p>
+
+        <label for="birthdate">Doğum tarihi:</label>
+
+        <input
+            type="date"
+            id="birthdate"
+            name="birthdate"
+        >
+
+
+        <!-- CHECKBOX -->
+
+        <h2>Checkbox</h2>
+
+        <p>
+            Birden fazla seçenek seçilebilmesi için checkbox kullanılır.
+        </p>
+
+        <input
+            type="checkbox"
+            id="html"
+            name="language"
+            value="html"
+        >
+
+        <label for="html">HTML</label>
+
+        <br>
+
+        <input
+            type="checkbox"
+            id="css"
+            name="language"
+            value="css"
+        >
+
+        <label for="css">CSS</label>
+
+        <br>
+
+        <input
+            type="checkbox"
+            id="javascript"
+            name="language"
+            value="javascript"
+        >
+
+        <label for="javascript">JavaScript</label>
+
+
+        <!-- RADIO -->
+
+        <h2>Radio</h2>
+
+        <p>
+            Tek bir seçenek seçilmesi isteniyorsa radio kullanılır.
+        </p>
+
+        <input
+            type="radio"
+            id="male"
+            name="gender"
+            value="male"
+        >
+
+        <label for="male">Erkek</label>
+
+        <br>
+
+        <input
+            type="radio"
+            id="female"
+            name="gender"
+            value="female"
+        >
+
+        <label for="female">Kadın</label>
+
+
+        <!-- TEXTAREA -->
+
+        <h2>Textarea</h2>
+
+        <p>
+            Kullanıcıdan birden fazla satırdan oluşan
+            uzun bir metin alınmak istenirse textarea kullanılır.
+        </p>
+
+        <label for="message">Mesajınız:</label>
+
+        <br>
+
+        <textarea
+            id="message"
+            name="message"
+            rows="5"
+            cols="30"
+        ></textarea>
+
+
+        <!-- FILE -->
+
+        <h2>File</h2>
+
+        <p>
+            Kullanıcının bilgisayarından bir dosya seçmesi
+            istenirse type="file" kullanılır.
+        </p>
+
+        <label for="file">Dosya seç:</label>
+
+        <input
+            type="file"
+            id="file"
+            name="file"
+        >
+
+
+        <!-- BUTTON -->
+
+        <h2>Button</h2>
+
+        <p>
+            Normal bir buton oluşturmak için button etiketi kullanılır.
+        </p>
+
+        <button type="button">
+            Normal Buton
+        </button>
+
+
+        <!-- SUBMIT -->
+
+        <h2>Submit</h2>
+
+        <p>
+            Formdaki bilgileri göndermek için type="submit" kullanılır.
+        </p>
+
+        <button type="submit">
+            Gönder
+        </button>
+
+
+        <!-- RESET -->
+
+        <h2>Reset</h2>
+
+        <p>
+            Formdaki girilmiş bilgileri temizlemek için
+            type="reset" kullanılır.
+        </p>
+
+        <button type="reset">
+            Reset
+        </button>
+
+
+        <!-- REQUIRED -->
+
+        <h2>Required</h2>
+
+        <p>
+            Kullanıcının bir alanı mutlaka doldurması gerekiyorsa
+            required kullanılır.
+        </p>
+
+        <label for="required-name">İsim:</label>
+
+        <input
+            type="text"
+            id="required-name"
+            name="required-name"
+            required
+        >
+
+
+        <!-- SELECT -->
+
+        <h2>Select ve Option</h2>
+
+        <p>
+            Açılır bir seçim listesi oluşturmak için
+            select etiketi kullanılır.
+        </p>
+
+        <label for="language">Bir dil seçiniz:</label>
+
+        <select
+            id="language"
+            name="language"
+            required
+        >
+
+            <option
+                value=""
+                selected
+                disabled
+            >
+                Seçim yapınız
+            </option>
+
+            <option value="html">
+                HTML
+            </option>
+
+            <option value="css">
+                CSS
+            </option>
+
+            <option value="javascript">
+                JavaScript
+            </option>
+
+        </select>
+
+
+        <br>
+        <br>
+
+
+        <!-- FORM BUTONLARI -->
+
+        <button type="submit">
+            Formu Gönder
+        </button>
+
+        <button type="reset">
+            Formu Temizle
+        </button>
+
+    </form>
+
+</body>
+
+</html>
+```
