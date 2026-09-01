@@ -8,9 +8,9 @@ Değer döndürmeyen fonksiyonlara giriş
 
 ## 📖 Öğrendiğim Kavramlar
 
-- function değişkeni
+- Fonksiyon değişkeni
 - Fonksiyon tanımlama
-- Fonksiyon çağırma
+- Fonksiyon çağırma = Paratez dışına Fonksiyonİsmi() şeklinde 
 - Parametre = Fonksiyonun dışarıdan aldığı bilgiyi temsil eden değişkendir.
 - Fonksiyon = Bir işi yapmak için çağrılan ve tekrar tekrar kullanılabilen kod parçacığıdır.
 ---
