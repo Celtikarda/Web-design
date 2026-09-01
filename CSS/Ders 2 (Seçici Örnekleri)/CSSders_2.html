@@ -1,33 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        /* {
-        color: red;
-     } */
-        /* kutu.h17 {
-        color: red;
-        */
-    </style>
+    <title>Seçiciler</title>
 
+    <style>
+        h1 {
+            color: red;
+        }
+
+        .kutu {
+            color: blue;
+        }
+
+        #baslik {
+            color: green;
+        }
+
+        p.h34 {
+            color: purple;
+        }
+    </style>
 </head>
 
 <body>
-    <p>Seçici özelliklerine bakalım:</p>
-    <p> * ile tüm elementleri seçer</p>
-    <p>Normal taglarlada seçici özellikler kazandırabiliriz</p>
-    <h1 style="color: green;">Baslik</h1> <!-- style özelliği ile taglara özellik kazandırabiliriz -->
-    <p> Burada parçalayalım:</p>
 
-    <p>h1 → sadece h1 etiketlerine bak
-        .kutu → class değeri kutu olanları seç</p>
-    <p>Yani ikisini birden sağlayanlar etkilenir.</p>
+    <h1>Normal Başlık</h1>
 
+    <h2 class="kutu">Bu bir kutu</h2>
+    <p class="kutu">Bu paragraf da kutu class'ına sahip.</p>
+    <div class="kutu">Bu da bir div.</div>
 
+    <h2 id="baslik">Özel Başlık</h2>
+
+    <p class="h17">Bu paragraf etkilenir.</p>
+    <div class="h17">Bu div etkilenmez.</div>
 
 </body>
 
