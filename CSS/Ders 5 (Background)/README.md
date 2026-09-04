@@ -8,11 +8,11 @@ Background özellikleri
 
 ## 📖 Öğrendiğim Kavramlar
 
-- `background-position: center;` = Arka plan resminin konumunu belirler. (`center`, `top`, `bottom`, `left`, `right` vb. kullanılabilir.)
+- background-position: center; = Arka plan resminin konumunu belirler. (`center`, `top`, `bottom`, `left`, `right` vb. kullanılabilir.)
 
-- `background-repeat: no-repeat;` = Arka plan resminin tekrarlanmamasını sağlar.
+- background-repeat: no-repeat; = Arka plan resminin tekrarlanmamasını sağlar.
 
-- `background-repeat: repeat;` = Arka plan resminin hem yatay hem dikey eksende tekrarlanmasını sağlar.
+- background-repeat: repeat; = Arka plan resminin hem yatay hem dikey eksende tekrarlanmasını sağlar.
 
 - `background-repeat: repeat-x;` = Arka plan resminin yalnızca yatay eksende tekrarlanmasını sağlar.
 
