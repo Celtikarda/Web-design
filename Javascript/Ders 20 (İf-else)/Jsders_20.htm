@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 
 <head>
     <meta charset="UTF-8">
@@ -11,24 +11,24 @@
     <script>
         var ort, vize, finalç;
         vize = Number(prompt("Vize notunu giriniz:"));
-        document.write("Vize notunuz:" +vize);
+        document.write("Vize notunuz:" + vize);
         document.write("<br>");
         final = Number(prompt("Final notunu giriniz:"));
-        document.write("Final notunuz:"+final);
+        document.write("Final notunuz:" + final);
         document.write("<br>");
-        ort=(vize+final)/2;
+        ort = (vize + final) / 2;
         document.write("Ortalamanız: " + ort);
         document.write("<br>");
-        if(ort<50){
+        if (ort < 50) {
             document.write("Kaldınız!");
         }
-        else if(ort<65){
+        else if (ort < 65) {
             document.write("Yırtınız!")
         }
-        else if(ort<90){
+        else if (ort < 90) {
             document.write("Geçtiniz!!")
         }
-        else{
+        else {
             document.write("Abartmayın!!")
         }
     </script>
